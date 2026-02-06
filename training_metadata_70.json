@@ -1,0 +1,26 @@
+{
+  "test_accuracy": 62.35141158103943,
+  "test_loss": 1.3612650632858276,
+  "val_accuracy": 62.697380781173706,
+  "train_accuracy": 81.09474778175354,
+  "epochs_trained_stage1": 10,
+  "epochs_trained_stage2": 133,
+  "target_met": false,
+  "config": {
+    "epochs_stage1": 10,
+    "epochs_stage2": 140,
+    "batch_size": 64,
+    "image_size": 112,
+    "learning_rate_stage1": 0.0002,
+    "learning_rate_stage2": 1e-05,
+    "label_smoothing": 0.05,
+    "target_accuracy": 0.75,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "num_classes": 7,
+    "freeze_until_stage2": 120
+  },
+  "timestamp": "2026-01-23T09:57:23.192361",
+  "model_file": "final_model70.keras"
+}

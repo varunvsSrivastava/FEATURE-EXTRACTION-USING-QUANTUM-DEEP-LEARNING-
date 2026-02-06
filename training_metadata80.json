@@ -1,0 +1,25 @@
+{
+  "test_accuracy": 66.06296896934509,
+  "test_loss": 1.3136531114578247,
+  "val_accuracy": 64.08470273017883,
+  "train_accuracy": 84.4648003578186,
+  "epochs_trained_stage1": 10,
+  "epochs_trained_stage2": 140,
+  "target_met": false,
+  "config": {
+    "epochs_stage1": 10,
+    "epochs_stage2": 140,
+    "batch_size": 64,
+    "image_size": 112,
+    "learning_rate_stage1": 0.0002,
+    "learning_rate_stage2": 1e-05,
+    "label_smoothing": 0.05,
+    "target_accuracy": 0.75,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "num_classes": 7,
+    "freeze_until_stage2": 120
+  },
+  "timestamp": "2026-01-23T12:05:54.703870"
+}

@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "[python]": {
+    "defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "pylance.analysis.typeCheckingMode": "basic",
+  "python.linting.enabled": true,
+  "python.analysis.extraPaths": ["${workspaceFolder}/.venv/Lib/site-packages"],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none"
+  }
+}
